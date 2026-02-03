@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.*;
 
-public class Token_bucket{
+public class Tokenbucket{
     public static void main(String args[]){
         Scanner in = new Scanner(System.in);
         int token_remaining=0;//total tokens in the bucket
