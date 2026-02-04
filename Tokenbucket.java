@@ -4,7 +4,7 @@ import java.util.*;
 public class Tokenbucket{
     public static void main(String args[]){
         Scanner in = new Scanner(System.in);
-        int token_remaining=0;//total tokens in the bucket
+        int token_remaining=0;
         int token_requested,token_sent;
         System.out.println("Enter the bucket capacity");
         int bucket_capacity=in.nextInt();
